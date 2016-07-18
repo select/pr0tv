@@ -33,11 +33,6 @@
   const styleEl = document.createElement('style');
   document.querySelector('head').appendChild(styleEl);
 
-  // styleSheetEl = document.createElement('link')
-  // styleSheetEl.setAttribute('rel', 'stylesheet');
-  // styleSheetEl.setAttribute('href', './pr0tv.css');
-  // document.querySelector('head').appendChild(styleSheetEl);
-
   const bodyEl = document.querySelector('body');
   bodyEl.insertBefore(overlayEl, bodyEl.firstChild);
   bodyEl.insertBefore(controlEl, bodyEl.firstChild);
@@ -107,7 +102,7 @@
 
   /**
    * ##exit
-   * Stop pr0-tv and exit the fullscreen mode, move the video back into it's old parent
+   * Stop pr0-tv and exit the fullscreen mode, move the video back into its old parent
    */
   function exit() {
     exitFullscreen();
@@ -123,7 +118,7 @@
 
   /**
    * ##toggle
-   * Start or stop pr0-tv depending on it's previous state
+   * Start or stop pr0-tv depending on its previous state
    */
   function toggle() {
     if (!isRunning) {
