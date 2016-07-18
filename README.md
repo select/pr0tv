@@ -3,7 +3,7 @@ Wie Fernshen aber besser.
 
 ## Installieren
 Chrome Extension hier installieren
-https://chrome.google.com/webstore/detail/ncihhdjknepiomhfmhjkgfmofhmkbdme/publish-accepted
+https://chrome.google.com/webstore/detail/ncihhdjknepiomhfmhjkgfmofhmkbdme
 
 ## Benutzung
 pr0-tv Button oben rechts clicken (wenn kein Post ausgewählt ist 2x). Videos laufen hintereinander durch, Bilder werden übersprungen.
