@@ -1,0 +1,65 @@
+body { position: relative; }
+.tv-overlay {
+  position: fixed;
+  background-color: rgba(0,0,0,0.9);
+  z-index: 99999990;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+.tv-overlay video {
+  pointer-events: none;
+}
+.tv-overlay .video-controls {
+  width: 100%;
+}
+.tv-overlay h1 {
+  font-size: 120px;
+}
+.tv-overlay div.video-controls {
+  cursor: pointer;
+}
+.tv-overlay div.video-controls:hover div.video-position-bar-background {
+  height: 8px;
+  opacity: 0.8;
+  transition: height 0.2s ease;
+}
+.tv-overlay div.video-controls:hover div.audio-controls, .tv-overlay div.video-controls:hover div.audio-volume-controls {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+.tv-overlay .loading {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  font-size: 22px;
+  color: #d23c22;
+  white-space: nowrap;
+}
+.tv-control {
+  position: fixed;
+  z-index: 99999991;
+  top: 5px;
+  right: 5px;
+  border: 3px solid #d23c22;
+  color: #CA4343;
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+  background: rgba(0,0,0,0.3);
+  padding: 3px 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-pr0-tv {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
